@@ -27,3 +27,9 @@ CREATE TABLE [Dimension].[Customer](
 End
 GO
 
+--First Change
+IF NOT EXISTS(SELECT * FROM sys.objects WHERE type = 'PK' AND  name = 'PK_Dimension_Customer')
+BEGIN
+    ALTER TABLE [Dimension].[Customer]
+    ADD CONSTRAINT PK_Dimension_Customer PRIMARY KEY CLUSTERED ([Customer Key] ASC)
+END
