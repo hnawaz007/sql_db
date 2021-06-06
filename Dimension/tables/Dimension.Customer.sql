@@ -26,5 +26,3 @@ CREATE TABLE [Dimension].[Customer](
 ) ON [Primary]
 End
 GO
-
-
