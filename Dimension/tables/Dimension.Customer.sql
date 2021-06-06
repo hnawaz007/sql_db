@@ -27,7 +27,7 @@ CREATE TABLE [Dimension].[Customer](
 End
 GO
 
----Second Change
+---Second Change --
 ALTER TABLE [Dimension].[Customer] ADD  CONSTRAINT [DF_Dimension_Customer_Customer_Key]  
 DEFAULT (NEXT VALUE FOR [Sequences].[CustomerKey]) FOR [Customer Key]
 GO
