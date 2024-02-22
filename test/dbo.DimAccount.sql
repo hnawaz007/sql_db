@@ -1,4 +1,4 @@
-SELECT TOP (1000) [AccountKey]
+SELECT [AccountKey]
       ,[ParentAccountKey]
       ,[AccountCodeAlternateKey]
       ,[ParentAccountCodeAlternateKey]
